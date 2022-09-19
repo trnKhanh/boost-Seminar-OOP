@@ -1,0 +1,8 @@
+Phiên bản mới nhất: 1.80.00
+
+Cộng đồng Boost xuất hiện vào khảong năm 1998, khi phiên bản đầu chuẩn đầu tiên được phát hành. Sau đó, cộng đồng Boost đã liên tục phát triển và hiện này đóng một vai trò rất lớn trong việc chuẩn hoá C++. 
+Mặc dù giữa Boost và C++ không có một mối quan hệ chính thống, một vài nhà phát triển đều hoạt động ở cả 2 nhóm này.
+
+Những người góp công: David Abrahams là một trong các nhà sáng lập ra Boost và hiện vẫn còn hoạt động trong cộng đồng này. Bên cạnh đó, có thể kể đến Nicolai Josuttis, tác giả của nhiều cuốn sách về ngôn ngữ C++, cũng góp phần tạo nên thư viện array của Boost vào năm 2001.
+
+Nguồn: wikipedia
