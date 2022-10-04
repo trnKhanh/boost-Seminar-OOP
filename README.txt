@@ -4,9 +4,14 @@ Công việc:
   -Nguồn gốc
   -Kiến trúc
   -Các thư viện
-    +Container
-    +Circular Buffer
-    +Lambda
+    +container
+    +circular buffer
+    +lambda
+    +noncopyable
+    +boost array
+    +date time
+    +foreach
+    +boost algorithm
 
 Link tham khảo
 https://www.reddit.com/r/cpp/comments/jn72ol/what_are_you_most_used_boost_libraries/
