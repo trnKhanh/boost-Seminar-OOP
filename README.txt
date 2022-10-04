@@ -12,6 +12,9 @@ Công việc:
     +date time
     +foreach
     +boost algorithm
+    +multiprecision
+    +...(bổ sung thêm)
+Chú ý: kiểm tra xem các thư viện (hàm) trong boost đã được thêm vào thư viện c++(bản mới nhất) chuẩn chưa
 
 Link tham khảo
 https://www.reddit.com/r/cpp/comments/jn72ol/what_are_you_most_used_boost_libraries/
