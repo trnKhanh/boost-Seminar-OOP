@@ -14,6 +14,7 @@ Công việc:
     +boost algorithm
     +multiprecision
     +lexical_cast
+    +bind
     +...(bổ sung thêm)
 Chú ý: kiểm tra xem các thư viện (hàm) trong boost đã được thêm vào thư viện c++(bản mới nhất) chuẩn chưa
 
