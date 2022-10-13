@@ -21,3 +21,4 @@ Link tham khảo
 https://www.reddit.com/r/cpp/comments/jn72ol/what_are_you_most_used_boost_libraries/
 https://www.boost.org/
 https://stackoverflow.com/questions/693390/how-do-i-get-started-using-boost
+https://stackoverflow.com/questions/325906/most-used-parts-of-boost
