@@ -1,0 +1,8 @@
+1. Filesystem (đã được thêm vào thư viện chuẩn từ bản C++17)
+  -Thư viện hỗ trỡ làm việc trên file, đường dẫn
+  -class path giúp quản lý đường dẫn một cách dễ dàng
+    +Phương thức root_name(), parent_path(), filename(),... giúp trích xuất được đường dẫn nhanh chóng, tiện lợi
+    +Các phương thức tra hỏi: has_root_name(), has_filename(),... xem có cách thành phần trong đường dẫn không
+    +Hàm exists, is_directory, is_regular_file giúp kiếm tra xem đường dẫn có tồn tại không, là loại nào
+  -Class directory_iterator giúp duyệt qua các file trong một thư mục
+ 2. 
