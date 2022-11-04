@@ -6,4 +6,10 @@
     +Hàm exists, is_directory, is_regular_file giúp kiếm tra xem đường dẫn có tồn tại không, là loại nào
   -Class directory_iterator giúp duyệt qua các file trong một thư mục
  2. Container
- 
+  2.1. stable_vector
+    -includePath: <boost/container/stable_vector>
+    -Đặc tính:
+      +Con trỏ hay iterator trỏ vào các phần tử của stable_vector là ổn đinh (stable), nghĩa iterator hay con trỏ đó chỉ không hợp lệ khi phần tử đó bị xoá đi
+      +Tuy nhiên, để có được tính ổn định thì stable_vector bị mất tính liên tục
+      +VD:
+        >Nếu dùng std::vector thì ta thấy rằng nếu tạo 1 con trỏ trỏ vào 1 phần tử bất kì trong vector (ví dụ: ptr = &a[1]) thì khi ta xoá phần tử ở trước hoặc là khi phần tử trong vector vượt quá max_size thì ptr sẽ bị mất ý nghĩa
