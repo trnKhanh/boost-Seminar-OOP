@@ -12,4 +12,5 @@
       +Con trỏ hay iterator trỏ vào các phần tử của stable_vector là ổn đinh (stable), nghĩa iterator hay con trỏ đó chỉ không hợp lệ khi phần tử đó bị xoá đi
       +Tuy nhiên, để có được tính ổn định thì stable_vector bị mất tính liên tục
       +VD:
-        >Nếu dùng std::vector thì ta thấy rằng nếu tạo 1 con trỏ trỏ vào 1 phần tử bất kì trong vector (ví dụ: ptr = &a[1]) thì khi ta xoá phần tử ở trước hoặc là khi phần tử trong vector vượt quá max_size thì ptr sẽ bị mất ý nghĩa
+        >Nếu dùng std::vector thì ta thấy rằng nếu tạo 1 con trỏ trỏ vào 1 phần tử bất kì trong vector (ví dụ: ptr = &a[1]) thì khi ta xoá phần tử ở trước hoặc là khi phần tử trong vector vượt quá max_size thì ptr sẽ bị mất ý nghĩa.
+        >Tuy nhiên thì std::vector ta sẽ duyệt các phần tử liên tiếp được còn stable_vector thì không
