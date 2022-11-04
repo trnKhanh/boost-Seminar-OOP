@@ -5,4 +5,5 @@
     +Các phương thức tra hỏi: has_root_name(), has_filename(),... xem có cách thành phần trong đường dẫn không
     +Hàm exists, is_directory, is_regular_file giúp kiếm tra xem đường dẫn có tồn tại không, là loại nào
   -Class directory_iterator giúp duyệt qua các file trong một thư mục
- 2. 
+ 2. Container
+ 
