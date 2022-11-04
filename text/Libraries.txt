@@ -7,7 +7,7 @@
   -Class directory_iterator giúp duyệt qua các file trong một thư mục
  2. Container
   2.1. stable_vector
-    -includePath: <boost/container/stable_vector>
+    -includePath: <boost/container/stable_vector.hpp>
     -Đặc tính:
       +Con trỏ hay iterator trỏ vào các phần tử của stable_vector là ổn đinh (stable), nghĩa iterator hay con trỏ đó chỉ không hợp lệ khi phần tử đó bị xoá đi
       +Tuy nhiên, để có được tính ổn định thì stable_vector bị mất tính liên tục
@@ -15,7 +15,7 @@
         >Nếu dùng std::vector thì ta thấy rằng nếu tạo 1 con trỏ trỏ vào 1 phần tử bất kì trong vector (ví dụ: ptr = &a[1]) thì khi ta xoá phần tử ở trước hoặc là khi phần tử trong vector vượt quá max_size thì ptr sẽ bị mất ý nghĩa.
         >Tuy nhiên thì std::vector ta sẽ duyệt các phần tử liên tiếp được còn stable_vector thì không
   2.2. static_vector
-    -includePath: <boost/container/static_vector>
+    -includePath: <boost/container/static_vector.hpp>
     -Đặc tính:
       +static_vector được dùng khi cần khởi tạo static với kích thước cố định tương tự như array trong C hay std::array, tuy nhiên khác với array trong C và std::array, các phần tử của nó không được khởi tạo ngay từ đầu mà chỉ được khởi tạo khi phần tử đó được thêm vào vector.
       +Khi cần dùng một bộ nhớ tĩnh thì static_vector tốt hơn std::vector vì:
@@ -23,7 +23,15 @@
         >static_vector không có truy cập bộ nhớ gián tiếp
     -Nguồn: https://www.youtube.com/watch?v=I8QJLGI0GOE&ab_channel=CppCon
   2.3. small_vector
-    -includePath: <boost/container/static_vector>
+    -includePath: <boost/container/small_vector.hpp>
     -Đặc tính:
       +small_vector được tối ưu cho trường hợp mảng có ít phần tử
       +small_vector sẽ gồm 1 vài phần tử được khởi tạo trước
+  2.4. devector
+    -includePath: <boost/container/devector.hpp>
+    -Đặc tính:
+      +Sự kết hợp giữa deque và vector: 
+        >Có thể thêm phần tử mới vào đầu/cuối mảng hoặc xoá phần tử đầu/cuối mảng
+        >Có thể truy xuất phần tử bất kì
+  2.5. Một số các container có đầu small_: tối ưu cho mảng có ít phần tử
+  2.6. Một số các container có đầu flat_: sử dụng mảng (vector) hay vì con trỏ (ví dụ như trong map, list,...)
