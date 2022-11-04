@@ -22,3 +22,8 @@
         >Với bộ dữ liệu nhỏ thì static_vector tốn ít bộ nhớ hơn trong stack
         >static_vector không có truy cập bộ nhớ gián tiếp
     -Nguồn: https://www.youtube.com/watch?v=I8QJLGI0GOE&ab_channel=CppCon
+  2.3. small_vector
+    -includePath: <boost/container/static_vector>
+    -Đặc tính:
+      +small_vector được tối ưu cho trường hợp mảng có ít phần tử
+      +small_vector sẽ gồm 1 vài phần tử được khởi tạo trước
