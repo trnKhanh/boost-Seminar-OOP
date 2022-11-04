@@ -14,3 +14,11 @@
       +VD:
         >Nếu dùng std::vector thì ta thấy rằng nếu tạo 1 con trỏ trỏ vào 1 phần tử bất kì trong vector (ví dụ: ptr = &a[1]) thì khi ta xoá phần tử ở trước hoặc là khi phần tử trong vector vượt quá max_size thì ptr sẽ bị mất ý nghĩa.
         >Tuy nhiên thì std::vector ta sẽ duyệt các phần tử liên tiếp được còn stable_vector thì không
+  2.2. static_vector
+    -includePath: <boost/container/static_vector>
+    -Đặc tính:
+      +static_vector được dùng khi cần khởi tạo static với kích thước cố định tương tự như array trong C hay std::array, tuy nhiên khác với array trong C và std::array, các phần tử của nó không được khởi tạo ngay từ đầu mà chỉ được khởi tạo khi phần tử đó được thêm vào vector.
+      +Khi cần dùng một bộ nhớ tĩnh thì static_vector tốt hơn std::vector vì:
+        >Với bộ dữ liệu nhỏ thì static_vector tốn ít bộ nhớ hơn trong stack
+        >static_vector không có truy cập bộ nhớ gián tiếp
+    -Nguồn: https://www.youtube.com/watch?v=I8QJLGI0GOE&ab_channel=CppCon
